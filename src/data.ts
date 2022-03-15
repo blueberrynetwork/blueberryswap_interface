@@ -1,0 +1,83 @@
+export const Tokens = {
+  BSC: [
+    {
+      name: 'BNB',
+      address: '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c',
+      symbol: 'BNB',
+      decimals: 18,
+      logoURI: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1839.png',
+    },
+    {
+      name: 'Blueberry',
+      address: '0xDE08dADF2953AEc0407758E09F1dAa3A004db644',
+      symbol: 'Blueberry',
+      decimals: 18,
+      logoURI: 'https://avatars.githubusercontent.com/u/94470848?v=4',
+    },
+    {
+      name: 'BTCB',
+      address: '0x7130d2A12B9BCbFAe4f2634d864A1Ee1Ce3Ead9c',
+      symbol: 'BTCB',
+      decimals: 18,
+      logoURI: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1.png',
+    },
+    {
+      name: 'ETH',
+      address: '0x2170Ed0880ac9A755fd29B2688956BD959F933F8',
+      symbol: 'ETH',
+      decimals: 18,
+      logoURI: 'https://s2.coinmarketcap.com/static/img/coins/64x64/1027.png',
+    },
+    {
+      name: 'BUSD',
+      address: '0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56',
+      symbol: 'BUSD',
+      decimals: 18,
+      logoURI: 'https://s2.coinmarketcap.com/static/img/coins/64x64/4687.png',
+    },
+    {
+      name: 'USDT',
+      address: '0x63b7e5aE00cc6053358fb9b97B361372FbA10a5e',
+      symbol: 'USDT',
+      decimals: 6,
+      logoURI: 'https://s2.coinmarketcap.com/static/img/coins/64x64/825.png',
+    },
+    {
+      name: 'Cardano Token',
+      symbol: 'ADA',
+      address: '0x3EE2200Efb3400fAbB9AacF31297cBdD1d435D47',
+      decimals: 18,
+      logoURI: 'https://s2.coinmarketcap.com/static/img/coins/64x64/2010.png',
+    },
+    {
+      name: 'Dogecoin',
+      symbol: 'DOGE',
+      address: '0xbA2aE424d960c26247Dd6c32edC70B295c744C43',
+      decimals: 8,
+      logoURI: 'https://s2.coinmarketcap.com/static/img/coins/64x64/74.png',
+    },
+    {
+      name: 'XRP Token',
+      symbol: 'XRP',
+      address: '0x1D2F0da169ceB9fC7B3144628dB156f3F6c60dBE',
+      decimals: 18,
+      logoURI: 'https://s2.coinmarketcap.com/static/img/coins/64x64/52.png',
+    },
+  ],
+  AVAX: [
+    {
+      name: 'AVAX',
+      address: '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7',
+      symbol: 'AVAX',
+      decimals: 18,
+      logoURI: 'https://s2.coinmarketcap.com/static/img/coins/64x64/5805.png',
+    },
+    {
+      name: 'Blueberry',
+      address: '0x17d348eAA30F191eE34c3dE874Ba9989f259e44c',
+      symbol: 'Blueberry',
+      decimals: 18,
+      logoURI: 'https://avatars.githubusercontent.com/u/94470848?v=4',
+    },
+  ],
+};

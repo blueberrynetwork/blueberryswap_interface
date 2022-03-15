@@ -1,0 +1,260 @@
+.App {
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  box-shadow: 10px 10px 10px rgb(0 0 0 / 20%);
+}
+.card {
+  border-radius: 5% !important;
+}
+
+.icon {
+  padding-left: 5px;
+  font-size: 24px;
+}
+
+.chartContainer {
+  width: 60%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 500px) {
+  .chartContainer {
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+
+.priceChartSpinner {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.removeLpButton {
+  background-color: rgb(0, 157, 154) !important;
+  color: white !important;
+}
+
+#loader {
+  color: white;
+}
+
+#contentLiquidityProvider {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.confirm {
+  position: relative;
+  bottom: 10px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.navbar-nav {
+  z-index: 99999999 !important;
+}
+
+.App-header {
+  background-color: #282c34;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+input {
+  height: 65px !important;
+  background: aliceblue !important;
+  color: rgb(40, 13, 95) !important;
+  position: relative !important;
+  font-weight: 500 !important;
+  outline: none !important;
+  flex: 1 1 auto !important;
+  font-size: 16px !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  padding: 0 px !important;
+  appearance: textfield !important;
+}
+.card {
+  box-shadow: 10px 10px 10px rgb(0 0 0 / 20%);
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none !important;
+  border: none !important;
+}
+.settings_slippage {
+  position: absolute;
+  right: 45px;
+  color: whitesmoke;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.settings_chart {
+  position: absolute;
+  right: 95px;
+  color: whitesmoke;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+nav2 {
+  background-image: linear-gradient(
+    141deg,
+    #585858 0,
+    #1fc8db 51%,
+    #2cb5e8 75%
+  );
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #585858 !important;
+  border-color: #585858 !important;
+}
+
+.ModalWrapper {
+  animation: fadein 0.3s;
+  -moz-animation: fadein 0.3s; /* Firefox */
+  -webkit-animation: fadein 0.3s; /* Safari and Chrome */
+  -o-animation: fadein 0.3s; /* Opera */
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadein {
+  /* Opera */
+  from {
+    opacity: 0.5;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.main {
+  animation: fadein 0.7s;
+  -moz-animation: fadein 0.7s; /* Firefox */
+  -webkit-animation: fadein 0.7s; /* Safari and Chrome */
+  -o-animation: fadein 0.7s; /* Opera */
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadein {
+  /* Opera */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/** Dropdown **/
+
+#networks {
+  position: absolute;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0 grey;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #1aa2bd;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #1aa2bd;
+}
